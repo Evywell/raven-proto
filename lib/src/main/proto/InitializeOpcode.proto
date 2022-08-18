@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package fr.rob.raven.proto.message;
+
+option java_outer_classname = "InitializeOpcodeProto";
+
+message Initialize { }
+
+message InitializationSucceed { }
