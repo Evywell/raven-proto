@@ -36,11 +36,3 @@ protobuf {
         artifact = 'com.google.protobuf:protoc:3.8.0'
     }
 }
-
-sourceSets {
-    main {
-        java {
-            srcDirs 'build/generated/source/proto/main/java'
-        }
-    }
-}
