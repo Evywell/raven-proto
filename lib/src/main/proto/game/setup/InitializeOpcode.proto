@@ -4,6 +4,10 @@ package fr.raven.proto.message.game.setup;
 
 option java_outer_classname = "InitializeOpcodeProto";
 
-message Initialize { }
+message Initialize {
+  string actionToInitiate = 1;
+}
 
-message InitializationSucceed { }
+message InitializationSucceed {
+  string actionToInitiate = 1;
+}
